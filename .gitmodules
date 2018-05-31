@@ -1,0 +1,3 @@
+[submodule "gmt"]
+	path = gmt
+	url = https://github.com/molip/gmt
