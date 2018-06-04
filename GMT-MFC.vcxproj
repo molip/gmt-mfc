@@ -137,7 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="gmt\GMT.vcxproj">
-      <Project>{36166d9b-8254-4db1-b97d-4de45dab0b32}</Project>
+      <Project>{e44fc021-674e-480e-b972-2ae58f8f067b}</Project>
     </ProjectReference>
     <ProjectReference Include="gmt\libraries\lib\SFML.vcxproj">
       <Project>{efaa95a4-b8db-4ddc-be7b-ee76faa57513}</Project>

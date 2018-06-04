@@ -37,17 +37,8 @@ void ChildView::Pump()
 	if (!m_window)
 		return;
 		
-	sf::Event event;
-	while (m_window->pollEvent(event))
-	{
-		switch (event.type)
-		{
-		case sf::Event::MouseMoved:
-			m_window->OnMouseMoved(event.mouseMove);
-			break;
-		}
-	}
-
+	m_window->PumpEvents();
+	m_window->clear();
 	m_window->Draw();
 }
 
